@@ -1,0 +1,516 @@
+/***** Responsive *****/
+/* PC - 1920px */
+@media screen and (min-width:1441px) and (max-width:1920px) {
+    .next-icon {
+    top: 122px;
+    right: 60px;
+    }
+    .navbar #navbar-logo {
+        font-size: 32px;
+    }
+    #login-block,
+    .navbar-list {
+        font-size: 18px;
+    }
+    .header-center #title {
+        font-size: 72px;
+    }
+    .header-center #content {
+        font-size: 32px;
+    }
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        height: 68px;
+        font-size: 20px;
+        line-height: 68px;
+    }
+    .main-title {
+        font-size: 40px;
+    }
+    .main-content {
+        font-size: 20px;
+    }
+    .infor-finally #title {
+        font-size: 40px;
+    }
+    .infor-finally #content {
+        font-size: 28px;
+    }
+    #footer #navbar-logo {
+        font-size: 30px;
+    }
+    .finally-content #let-go-btn {
+        width: 270px;
+    }
+    .finally-content #content {
+        font-size: 38px;
+    }
+}
+/* PC - 1440px */
+
+@media screen and (max-width:1440px) {
+    .next-icon {
+    right: 0px;
+    }
+}
+
+/* PC - 1366px */
+@media screen and (max-width:1366px) {
+    #header-block {
+        grid-template-rows: 34.5% 1fr 31.5%;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .navbar {
+        grid-template-columns: 2.5% repeat(5,1fr) 1.75%;
+    }
+    .header-center {
+        grid-template-columns: 10.5% 1fr 21.875%;
+    }
+    #top-title {
+        grid-template-columns: 15% 1fr 15%;
+    }
+    .logo-and-list-item {
+        grid-column: 2/7;
+    }
+    .header-center #title {
+        font-size: 55px;
+    }
+    .header-center #content {
+        font-size: 24px;
+    }
+    .header-image {
+        top: 30%;
+        left: 68%;
+    }
+    .next-icon {
+        right: -8px;
+    }
+
+}
+/* PC - 1280px */
+@media screen and (max-width:1280px) {
+    .header-image {
+        top: 35%;
+    }
+    .next-icon {
+        right: -8px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    .infor-finally #title {
+        font-size: 30px;
+    }
+    .infor-finally #content {
+        font-size: 22px;
+    }
+    .finally-content #content {
+        font-size: 30px;
+    }
+    .finally-content #let-go-btn {
+        font-size: 20px;
+    }
+}
+/* PC-Laptop - 1024px */
+@media screen and (max-width:1024px) {
+    #header,
+    .bg-color {
+        height: 540px;
+    }
+    #top-title {
+        height: 330px;
+    }
+    .header-image {
+        left: 72%;
+    }
+    .logo-and-list-item {
+        grid-column: 2/7;
+    }
+    .navbar-list {
+        margin-left: 54px;
+    }
+    .navbar-list .navbar-item {
+        margin-right: 20px;
+    }
+    #login-block .item-btn #sign-btn {
+        font-weight: 500;
+    }
+    /*  */
+    .header-center #title {
+        font-size: 44px;
+        line-height: normal;
+    }
+    .header-center #content {
+        font-size: 20px;
+        line-height: normal;
+    }
+    #center-btn .item-btn-1, #center-btn .item-btn-2 {
+        font-weight: 500;
+    }
+    /*  */
+    #top-title {
+        grid-template-columns: 11% 1fr 11%;
+    }
+    /* find out new lineheight with height of #top-title is 380px */
+    #top-title .main-title {
+        line-height: calc(330px*82px/380px);
+    }
+    #top-title .main-content {
+        line-height: calc(330px*33px/380px);
+    }
+    .next-icon {
+        right: -8px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    .infor-finally {
+        height: 400px;
+    }
+    .back-icon-last {
+        grid-column: 1/3;
+    }
+    .next-icon-last {
+        grid-column: 11/13;
+    }
+    .infor-finally #title {
+        font-size: 30px;
+    }
+    .infor-finally #content {
+        font-size: 22px;
+    }
+    .finally-content #content {
+        font-size: 30px;
+    }
+    .finally-content #let-go-btn {
+        font-size: 20px;
+    }
+    .main-title {
+        font-size: 28px;
+        /* line-height: 60px; */
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        width: 140px;
+        height: 55px;
+    }
+    #center-btn .item-btn-1 {
+        background-color: #FFFE00;
+    }
+    #center-btn .item-btn-2 {
+        margin-left: 28px;
+    }
+    .img-item:last-child {
+        display: none;
+    }
+    #footer .navbar-list {
+        grid-column: 4/10;
+        font-size: 16px;
+    }
+    #footer #navbar-logo {
+        font-size: 22px;
+        margin-right: 18px;
+    }
+    .finally-content {
+        height: 232px;
+    }
+    .finally-content #content {
+        color: #FFF;
+        font-size: 26px;
+    }
+    .finally-content #let-go-btn {
+        font-size: 18px;
+        height: 64px;
+        line-height: 64px;
+    }
+    #center-btn {
+        margin-top: 16px;
+    }
+    .slider-2 {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    .infor-finally #title {
+        font-size: 34px;
+    }
+}
+
+/*  */
+
+/* Tablet - 960px */
+@media screen and (max-width:960px) {
+    #header,
+    .bg-color {
+        height: 510px;
+    }
+
+    .logo-and-list-item {
+        grid-column: 2/8;
+    }
+    .navbar-list {
+        margin-left: 48px;
+        font-size: 14px;
+    }
+    .navbar #navbar-logo {
+        font-size: 24px;
+    }
+    .navbar-list .navbar-item {
+        margin-right: 22px;
+    }
+    /*  */
+    .header-center #title {
+        font-size: 38px;
+        line-height: normal;
+    }
+    .header-center #content {
+        padding: 10px 0;
+        font-size: 18px;
+        line-height: normal;
+    }
+    /*  */
+    .next-icon {
+        right: -8px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    .infor-finally {
+        height: 400px;
+    }
+    .back-icon-last {
+        grid-column: 1/3;
+    }
+    .next-icon-last {
+        grid-column: 11/13;
+    }
+    .infor-finally #title {
+        font-size: 30px;
+    }
+    .infor-finally #content {
+        font-size: 22px;
+    }
+    .finally-content #content {
+        font-size: 30px;
+    }
+    .finally-content #let-go-btn {
+        font-size: 20px;
+    }
+    .main-title {
+        font-size: 28px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        width: 140px;
+        height: 55px;
+    }
+    .slider-2 {
+        margin-top: 28px;
+        margin-bottom: 70px;
+    }
+}
+
+/* Mobile - 768px */
+@media screen and (max-width:768px) {
+    #header,
+    .bg-color {
+        height: 460px;
+    }
+    .navbar #navbar-logo, .navbar .navbar-list {
+        line-height: 36px;
+    }
+    .logo-and-list-item {
+        grid-column: 2/8;
+    }
+    .navbar-list {
+        margin-left: 38px;
+        font-size: 14px;
+    }
+    .navbar #navbar-logo {
+        font-size: 22px;
+    }
+    .navbar-list .navbar-item {
+        margin-right: 16px;
+    }
+    /*  */
+    .header-center #title {
+        font-size: 38px;
+        line-height: normal;
+    }
+    .header-center #content {
+        padding: 10px 0;
+        font-size: 18px;
+        line-height: normal;
+    }
+    
+    .next-icon {
+        right: -8px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    .infor-finally {
+        height: 400px;
+    }
+    .back-icon-last {
+        grid-column: 1/3;
+    }
+    .next-icon-last {
+        grid-column: 11/13;
+    }
+    .infor-finally #title {
+        font-size: 30px;
+    }
+    .infor-finally #content {
+        font-size: 22px;
+    }
+    .finally-content #content {
+        font-size: 30px;
+    }
+    .finally-content #let-go-btn {
+        font-size: 20px;
+    }
+    .main-title {
+        font-size: 28px;
+    }
+    .main-content {
+        font-size: 18px;
+    }
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        width: 140px;
+        height: 55px;
+    }
+    .slider-2 {
+        margin-top: 28px;
+        margin-bottom: 70px;
+    }
+}
+
+/* Mobile iphone-5s*/ 
+@media screen and (max-width:320px) {
+    /* Header */
+    #header {
+        height: 260px;
+    }
+    .navbar {
+        top: 0;
+        position: absolute;
+        display: flex;
+        margin-left: 12px;
+    }
+    .bg-color {
+        height: 260px;
+    }
+    .navbar #navbar-logo {
+        font-weight: 800;
+        font-size: 18px;
+        height: 45px;
+        line-height: 45px;
+    }
+    #navbar-block .navbar .popup-side .menu-icon {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 12px;
+        height: 45px;
+        align-items: center;
+        font-weight: 50px;
+        visibility: initial;
+    }
+    /* hidden navbar-list */
+    .navbar .navbar-list {
+        visibility: hidden;
+    }
+    /* hidden login-block */
+    #navbar-block .navbar #login-block {
+        visibility: hidden;
+    }
+    /* set posititon header-center */
+    .header-center {
+        top: 50px;
+        left: 3.75%;
+    }
+    .header-center #title {
+        font-weight: 600;
+        color: #FFF;
+        font-size: 18px;
+        height: 24.6px;
+        line-height: 24.6px;
+    }
+    .header-center #content {
+        font-weight: 400;
+        color: #FFF;
+        font-size: 12px;
+        width: 100%;
+        height: 80px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    /**
+    Header-image */
+    .header-image {
+        position: absolute;
+        right: 0;
+        top: 55%;
+        z-index: 1;
+        width: 30%;
+        height: 30%;
+    }
+    /** Center-btn */
+    
+    #center-btn .item-btn-1,
+    #center-btn .item-btn-2 {
+        font-size: 12px;
+        width: 110px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    #center-btn .item-btn-2 {
+        margin-left: 12px;
+    }
+    /* General CSS for title & content*/
+    .main-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .main-content {
+        color: #969696;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 2;
+    }
+    /*** Slider ***/
+    #top-title .wrap-main-title {
+        position: absolute;
+        top: 5%;
+        width: 80%;
+        text-align: center;
+    }
+    .slider {
+        padding-top: 0px;
+        text-align: center;
+    }
+}

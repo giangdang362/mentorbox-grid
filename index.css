@@ -1,0 +1,331 @@
+/* Reset CSS */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+/* General CSS for title & content*/
+.main-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 82px;
+}
+.main-content {
+    color: #969696;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+}
+/*** Header ***/
+
+#header {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    height: 780px;
+    background: url('./images/img-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-color {
+    width: 100%;
+    height: 780px;
+    background: linear-gradient(146.88deg,
+     rgba(255, 81, 47, 0.865885) -6.27%, rgba(221, 36, 118, 0.766559) 74.49%);
+}
+
+/**
+    Navbar block */
+
+#header-block {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 194px 1fr;
+    grid-template-areas: 
+    "navbar navbar navbar navbar navbar"
+    "content content content content content";
+}
+#header-block .menu-icon,
+#header-block .close-menu-icon {
+    visibility: hidden;
+}
+.logo-and-list-item {
+    grid-column: 1/4;
+    grid-template-columns: 1fr 4fr;
+}
+.navbar {
+    grid-area: "navbar";
+    padding-top: 21px;
+    margin-left: 24px;
+    width: 98%;
+    height: 55px;
+    color: #FFFFFF;
+}
+.navbar #navbar-logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 28px;
+}
+.navbar #navbar-logo:hover,
+.navbar-list .navbar-item:hover,
+#login-block .item-btn:hover {
+    cursor: pointer;
+    color: #ddd;
+}
+
+.navbar #navbar-logo,
+.navbar .navbar-list {
+    line-height: 55px;
+}
+.navbar .navbar-list {
+    margin-left: 71px;
+    display: flex;
+}
+.navbar-list .navbar-item {
+    margin-right: 18px;
+}
+
+/* Login-block */
+
+#header-block #login-block {
+    grid-column: 5/6;
+}
+#login-block .item-btn #sign-btn {
+    font-size: 16px;
+    margin-left: 32px;
+    width: 130px;
+    height: 55px;
+    background-color: #FFFE00;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+}
+#login-block .item-btn #sign-btn:hover,
+#center-btn .item-btn-1:hover,
+#let-go-btn:hover {
+    cursor: pointer;
+    background-color: rgb(241, 229, 90);
+}
+
+/**
+    Header-center */
+
+.header-center {
+    position: absolute;
+    display: grid;
+    grid-area: "content-block";
+    top: 35%;
+    left: 10.5%;
+    width: 68%;
+    height: 34%;
+}
+#center-btn {
+    display: flex;
+    margin-left: 5px;
+    align-items: flex-end;
+}
+
+#center-btn .item-btn-1,
+#center-btn .item-btn-2 {
+    font-size: 16px;
+    width: 205px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    line-height: 60px;
+}
+#center-btn .item-btn-1 {
+    background-color: #FFFE00;
+}
+#center-btn .item-btn-2 {
+    background-color: #FFF;
+    margin-left: 32px;
+}
+#center-btn .item-btn-2:hover {
+    cursor: pointer;
+    background-color: rgb(235, 234, 234);
+}
+.header-center #title {
+    font-weight: 800;
+    color: #FFF;
+    font-size: 60px;
+    height: 82px;
+    line-height: 82px;
+}
+.header-center #content {
+    margin: 10px 0 24px 5px;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 26px;
+    width: 95%;
+    height: 120px;
+}
+/**
+    Header-image */
+.header-image {
+    position: absolute;
+    right: 0;
+    top: 20.3%;
+    z-index: 1;
+}
+
+/*** Top-title ***/
+
+#top-title {
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+#top-title .wrap-top-title {
+    text-align: center;
+}
+.wrap-top-title #content {
+    height: 26%;
+}
+
+/*** Slider ***/
+#main-slider {
+    background-color: #F2F2F2;
+}
+.slider {
+    padding-top: 56px;
+    text-align: center;
+}
+#top-title .wrap-main-title {
+    position: absolute;
+    top: 24%;
+    left: 15.42%;
+    width: 69%;
+    height: 48%;
+    text-align: center;
+}
+.wrap-main-title #content {
+    padding-bottom: 42px;
+}
+.list-img {
+    position: relative;
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.list-img div:hover {
+    cursor: pointer;
+}
+.next-icon {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+.back-icon {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.next-icon:hover,
+.back-icon:hover {
+    cursor: pointer;
+}
+/**
+    Slider-finally */
+.slider-finally {
+    margin-top: 104px;
+    width: 100%;
+}
+.slider-finally-bg {
+    position: relative;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#blur-bg {
+    background: linear-gradient(bottom,rgba(19, 19, 35, 1),rgba(87, 1, 1, 0.722));
+    /* opacity: 0.5; */
+    width: 100%;
+    height: 450px;
+}
+.infor-finally {
+    position: absolute;
+    top: 13.55%;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+}
+.infor-finally #title {
+    font-size: 36px;
+    font-weight: 600;
+    height: 82px;
+    line-height: 82px;
+}
+.infor-finally #content {
+    font-size: 26px;
+    font-weight: 500;
+    width: 66%;
+    margin: 0 auto;
+}
+#star-block {
+    margin: 0 auto;
+    display: flex;
+    width: 173px;
+    height: 29px;
+}
+#star-block .star-item {
+    margin-right: 5px;
+}
+.finally-content {
+    position: relative;
+    height: 263px;
+    background: linear-gradient(161.6deg, #FE5030 8.2%, #D72D77 88.92%);
+}
+.finally-content #content {
+    position: absolute;
+    top: 29.3%;
+    left: 108px;
+    font-size: 36px;
+    font-weight: 600;
+    width: 55%;
+    height: 104px;
+    line-height: 52px;
+}
+#let-go-btn {
+    position: absolute;
+    top: 35.36%;
+    right: 6.25%;
+    width: 250px;
+    height: 80px;
+    background-color: #FFFE00;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*** Footer ***/
+
+#footer {
+    height: 197px;
+    display: flex;
+}
+#footer #navbar-logo {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-left: 37px;
+    margin-right: 71px;
+    line-height: 197px;
+}
+#footer .navbar-list {
+    display: flex;
+}
+#footer .navbar-list .navbar-item {
+    font-weight: 500;
+    font-style: 18px;
+    line-height: 197px;
+    margin-right: 32px;
+}
+
