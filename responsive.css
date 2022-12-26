@@ -1,7 +1,9 @@
 /***** Responsive *****/
 /* PC - 1920px */
 @media screen and (min-width:1441px) and (max-width:1920px) {
-    #header {
+    #header,
+    .bg-color,
+    #header-block {
         height: 812px;
     }
     .logo-and-list-item {
@@ -54,7 +56,7 @@
     }
     .next-icon {
         top: 110px;
-        right: 78px;
+        right: 50px;
     }
 }
 /* PC - 1440px */
@@ -71,7 +73,9 @@
 /* PC - 1366px */
 @media screen and (min-width:1279px) and (max-width:1366px) {
 
-    #header {
+    #header,
+    .bg-color,
+    #header-block {
         height: 640px;
     }
     .bg-color {
@@ -576,7 +580,9 @@
 /* Mobile iphone-5s*/ 
 @media screen and (max-width:320px) {
     /* Header */
-    #header {
+    #header,
+    .bg-color,
+    #header-block {
         height: 260px;
     }
     .navbar {
