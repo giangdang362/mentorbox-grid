@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.popup-side {
+    display: none;
+}
 .bg-color {
     width: 100%;
     height: 780px;
@@ -19,13 +22,13 @@
 }
 #header-block {
     display: grid;
-    grid-template-rows: 270px 264px 246px;
+    grid-template-rows: 34.6% 33.85% 31.5%;
     grid-template-columns: repeat(12,1fr);
 }
 .navbar {
     grid-column: 1/13;
     display: grid;
-    grid-template-columns: 36px repeat(5,1fr) 25px;
+    grid-template-columns: 2.5% repeat(5,1fr) 1.736%;
     grid-template-rows: 21px 55px 194px;
     color: #FFFFFF;
 }
@@ -109,7 +112,10 @@
     grid-row: 2/3;
     display: grid;
     /* grid-template-columns be fixed auto-size on below 1366px */
-    grid-template-columns: 149px 1fr 315px;
+    grid-template-columns: 10.35% 1fr 21.875%;
+}
+.img-vertical {
+    display: none;
 }
 #title,
 #content,
@@ -334,7 +340,7 @@
 }
 #footer {
     display: grid;
-    grid-template-columns: 2.639% 13.2% 4.93% 33% 1fr;
+    grid-template-columns: 2.639% 13.2% 4.93% 1fr 30%;
     grid-template-rows: 50px 1fr 50px;
     align-items: center;
 }
