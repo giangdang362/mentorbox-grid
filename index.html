@@ -21,6 +21,7 @@
 </head>
 <body>
     <div id="main">
+        <div id="bg-blur" onclick="handleClickOutside()"></div>
         <div id="header">
             <div class="bg-color">
                 <div id="header-block">
@@ -48,29 +49,33 @@
                         </div>
                         <div class="popup-side">
                             <div class="menu-icon">
-                                <i class="fa fa-fw fa-bars" onclick="handleOpenPopup()"></i>
-                                <div class="mobile-menu">
-                                    <div id="navbar-logo">Mentorbox</div>
+                                <i id="hamberger-btn" class="fa fa-fw fa-bars" onclick="handleOpenPopup()"></i>
+                                <div class="mobile-menu" id="moblieMenu">
+                                    <div id="navbar-logo">
+                                        <p>Mentorbox</p>
+                                        <div id="close-menu" onclick="handleClickOutside()">&times</div>
+                                    </div>
                                     <ul class="navbar-list">
-                                        <li class="navbar-item">How It Works</li>
-                                        <li class="navbar-item">About Us</li>
-                                        <li class="navbar-item">Pricing</li>
-                                        <li class="navbar-item">Contact Us</li>
+                                        <li class="navbar-item"><a href="#">How It Works</a></li>
+                                        <li class="navbar-item"><a href="#">About Us</a></li>
+                                        <li class="navbar-item"><a href="#">Pricing</a></li>
+                                        <li class="navbar-item"><a href="#">Contact Us</a></li>
+                                        <hr style="margin-top: 10px; border: 1px solid #dddddd; opacity: 0.5; margin-right: 16px;">
                                     </ul>
                                     <div id="login-block">
                                         <div class="item-btn">
                                             <div id="login-btn">
-                                                Login
+                                                <a href="#">Login</a>
                                             </div>
                                         </div>
                                         <div class="item-btn">
                                             <div id="sign-btn">
-                                                Sign Up
+                                                <a href="#">Sign Up</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <div class="header-center">
@@ -113,7 +118,7 @@
             </div>
         </div>
         <div id="main-slider">
-            <div class="slider">
+            <div class="slider slider-1">
                 <div class="wrap-main-title">
                     <div id="title" class="main-title">
                         Explore Mentors
@@ -122,23 +127,28 @@
                         Take a look at some of the most popular areas our students are learning
                     </div>
                 </div>
-                <div class="list-img">
-                    <div class="next-icon">
+                <div id="carousel1" class="list-img">
+                    <div id="#btn-next" class="next-icon">
                         <img src="./images/button/next-button.png" alt="">
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-topics/cooking.png" alt="cooking">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/cooking.png" alt="cooking"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-topics/programming.png" alt="programming">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/programming.png" alt="programming"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-topics/fashion.png" alt="fashion">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/fashion.png" alt="fashion"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-topics/health-fitness.png" alt="health-fitness">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/health-fitness.png" alt="health-fitness"></a>
                     </div>
-                   
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/fashion.png" alt="fashion"></a>
+                    </div>
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-topics/health-fitness.png" alt="health-fitness"></a>
+                    </div>
                 </div>
             </div>
             <div class="slider slider-2">
@@ -150,21 +160,27 @@
                         Take a look at some of the most popular mentors currently offering their services
                     </div>
                 </div>
-                <div class="list-img">
+                <div id="carousel2" class="list-img">
                     <div class="next-icon">
-                        <img src="./images/button/next-button.png" alt="">
+                        <img src="./images/button/next-button.png" alt="next-icon">
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-mentors/todd-hicks.png" alt="todd-hicks">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/todd-hicks.png" alt="todd-hicks"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-mentors/ronal-cole.png" alt="ronal-cole">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/ronal-cole.png" alt="ronal-cole"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-mentors/edith-payne.png" alt="edith-payne">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/edith-payne.png" alt="edith-payne"></a>
                     </div>
-                    <div class="img-item">
-                        <img src="./images/explore-mentors/edwin-dennis.png" alt="edwin-dennis">
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/edwin-dennis.png" alt="edwin-dennis"></a>
+                    </div>
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/todd-hicks.png" alt="todd-hicks"></a>
+                    </div>
+                    <div class="img-item item">
+                        <a href="#"><img src="./images/explore-mentors/ronal-cole.png" alt="ronal-cole"></a>
                     </div>
                 </div>
             </div>
@@ -228,5 +244,20 @@
             </ul>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/gh/robinhuy/scroll-carousel@1.0.0/dist/scroll-carousel.min.js"></script>
+    <script>
+        ScrollCarousel({
+            carouselSelector: "#carousel1",
+            mouseDrag: true,
+            showScrollbar: false
+        });
+    </script>
+    <script>
+        ScrollCarousel({
+            carouselSelector: "#carousel2",
+            mouseDrag: true,
+            showScrollbar: false
+        });
+    </script>
 </body>
 </html>
