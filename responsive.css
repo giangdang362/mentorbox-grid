@@ -884,7 +884,7 @@
         height: 440px;
         display: grid;
         grid-template-columns: 4.2% repeat(12,1fr) 2%;
-        grid-template-rows: 8% 8% 4.3% 1fr;
+        grid-template-rows: 8% 8% 0 1fr;
     }
 
     .wrap-main-title {
