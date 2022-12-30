@@ -267,7 +267,7 @@ a {
 #main-slider .slider {
     height: 452px;
     display: grid;
-    grid-template-columns: 4.2% repeat(12,1fr) 2%;
+    grid-template-columns: 2.2% repeat(12,1fr) 2%;
     grid-template-rows: 18.14% 7.3% 9.3% 1fr;
 }
 .wrap-main-title {

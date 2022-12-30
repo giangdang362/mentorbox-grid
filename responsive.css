@@ -39,25 +39,25 @@
     }
     #carousel1 + * {
         opacity: 0.85;
-        left: 60px ;
+        left: 24px ;
         position: absolute;
         top: 47.5%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 60px ;
+        left: 24px ;
         position: absolute;
         top: 63.5%;
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: 9px;
+        right: 17px;
         position: absolute;
         top: 47.5%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: 9px;
+        right: 17px;
         position: absolute;
         top: 63.5%;
     }
@@ -98,25 +98,25 @@
     }
     #carousel1 + * {
         opacity: 0.85;
-        left: 41px ;
+        left: 14px;
         position: absolute;
         top: 47%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 41px ;
+        left: 14px;
         position: absolute;
         top: 63.5%;
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: 23px;
+        right: 4px;
         position: absolute;
         top: 47%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: 23px;
+        right: 4px;
         position: absolute;
         top: 63.5%;
     }
@@ -137,7 +137,7 @@
         height: 640px;
     }
     #header-block {
-        grid-template-rows: 34.5% 1fr 29%;
+        grid-template-rows: 34.5% 1fr 25%;
         grid-template-columns: repeat(12,1fr);
     }
     .navbar {
@@ -169,25 +169,25 @@
     /*  */
     #carousel1 + * {
         opacity: 0.85;
-        left: 38px ;
+        left: 11px ;
         position: absolute;
         top: 45%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 38px ;
+        left: 11px ;
         position: absolute;
         top: 62.6%;
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: 23px;
+        right: 1px;
         position: absolute;
         top: 45%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: 23px;
+        right: 1px;
         position: absolute;
         top: 62.6%;
     }
@@ -247,8 +247,8 @@
     }
 
     #top-title {
-        height: 370px;
-        grid-template-rows: 20% 21.58% 1fr 25%;
+        height: 335px;
+        grid-template-rows: 18% 21.58% 1fr 13%;
     }
     #top-title .main-title {
         line-height: 70px;
@@ -259,25 +259,25 @@
     /*  */
     #carousel1 + * {
         opacity: 0.85;
-        left: 37px ;
+        left: 10px ;
         position: absolute;
-        top: 44.5%;
+        top: 43.8%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 37px ;
+        left: 10px ;
         position: absolute;
         top: 62.5%;
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: -7px;
+        right: -2px;
         position: absolute;
-        top: 44.5%;
+        top: 43.8%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: -7px;
+        right: -2px;
         position: absolute;
         top: 62.5%;
     }
@@ -442,25 +442,25 @@
     }
     #carousel1 + * {
         opacity: 0.85;
-        left: 24px ;
+        left: 5px ;
         position: absolute;
         top: 43.6%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 24px ;
+        left: 5px ;
         position: absolute;
         top: 61.5%;
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: -7px;
+        right: -4px;
         position: absolute;
         top: 43.6%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: -7px;
+        right: -4px;
         position: absolute;
         top: 61.5%;
     }
@@ -583,7 +583,7 @@
     }
     .header-center #content {
         padding: 10px 0;
-        font-size: 16px;
+        font-size: 18px;
         line-height: normal;
     }
     #center-btn .item-btn-1, #center-btn .item-btn-2 {
@@ -622,13 +622,13 @@
     }
     #carousel1 + * {
         opacity: 0.85;
-        left: 24px ;
+        left: 3px ;
         position: absolute;
         top: 43.6%;
     }
     #carousel2 + * {
         opacity: 0.85;
-        left: 24px ;
+        left: 3px ;
         position: absolute;
         top: 62%;
     }
@@ -1205,7 +1205,7 @@
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: 0;
+        right: 1px;
         position: absolute;
         top: 42.8%;
         width: 30px !important;
@@ -1213,7 +1213,7 @@
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: 0;
+        right: 1px;
         position: absolute;
         top: 64.8%;
         width: 30px !important;
