@@ -1116,6 +1116,12 @@
         left: 69%;
         right: -0.7%;
     }
+    #moblieMenu {
+        height: 272px;
+    }
+    .navbar #navbar-logo, .navbar .navbar-list {
+        line-height: 40px;
+    }
     #center-btn .item-btn-1, #center-btn .item-btn-2 {
         font-size: 12px;
     }
@@ -1124,7 +1130,7 @@
     } */
     .menu-icon i {
         padding: 2px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .header-center {
         grid-template-columns: 5.5% 68.5% 26%;
@@ -1157,6 +1163,10 @@
         font-size: 16px;
         line-height: 21px;
     }
+    .main-content {
+        font-size: 12px;
+        line-height: 23px;
+    }
     #main-slider .slider {
         height: 391px;
         grid-template-columns: 0.2% repeat(12,1fr) 0.2%;
@@ -1172,7 +1182,7 @@
         opacity: 0.85;
         left: 0;
         position: absolute;
-        top: 39%;
+        top: 42.8%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1189,7 +1199,7 @@
         opacity: 0.85;
         left: 0 ;
         position: absolute;
-        top: 59%;
+        top: 64.8%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1197,7 +1207,7 @@
         opacity: 0.85;
         right: 0;
         position: absolute;
-        top: 39%;
+        top: 42.8%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1205,8 +1215,35 @@
         opacity: 0.85;
         right: 0;
         position: absolute;
-        top: 59%;
+        top: 64.8%;
         width: 30px !important;
         height: 30px !important;
+    }
+    .infor-finally #title {
+        font-size: 22px;
+    }
+    .infor-finally #content {
+        font-size: 14px;
+    }
+    .slider-finally-bg .infor-finally {
+        height: 228px;
+    }
+    .finally-content #content {
+        font-size: 16px;
+    }
+    .finally-content {
+        height: 150px;
+    }
+    #footer #navbar-logo {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    #footer {
+        grid-template-columns: 2.639% 25% 3% 1fr;
+        grid-template-rows: 10px 1fr 10px;
+    }
+    #footer .navbar-list .navbar-item {
+        margin-right: 11px;
+        font-size: 9px;
     }
 }
