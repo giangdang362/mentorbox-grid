@@ -1207,7 +1207,83 @@
         font-size: 10px;
     }
 }
-
+/* 321px - 345px */
+@media screen and (min-width:321px) and (max-width: 424px) {
+    .header-center {
+        grid-template-columns: 5% 67.5% 27.5%;
+    }
+    .header-center #title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .header-center #content {
+        font-size: 15px;
+    }
+    #center-btn .item-btn-1, #center-btn .item-btn-2 {
+        width: 104px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .header-image {
+        top: 41.5%;
+        left: 69%;
+        right: 0.3%;
+    }
+    #top-title {
+        height: 264px;
+        grid-template-columns: 5% 1fr 5%;
+        grid-template-rows: 10% 16% 1fr;
+    }
+    .img-item {
+        width: calc(100%) !important;
+    }
+    #carousel1 + * {
+        opacity: 0.85;
+        left: 20px;
+        position: absolute;
+        top: 43%;
+    }
+    #carousel2 + * {
+        opacity: 0.85;
+        left: 20px ;
+        position: absolute;
+        top: 63%;
+    }
+    .slider-1 button + button {
+        opacity: 0.85;
+        right: 1px;
+        position: absolute;
+        top: 43%;
+    }
+    .slider-2 button + button {
+        opacity: 0.85;
+        right: 1px;
+        position: absolute;
+        top: 63%;
+    }
+    .finally-content #content {
+        font-size: 19px;
+    }
+    .finally-content {
+        height: 144px;
+    }
+    .finally-content #let-go-btn {
+        height: 50px;
+        line-height: 50px;
+    }
+    #footer {
+        grid-template-columns: 3.639% 24% 3% 1fr 1%;
+        grid-template-rows: 10px 1fr 10px;
+    }
+    #footer #navbar-logo {
+        font-size: 14px;
+    }
+    #footer .navbar-list .navbar-item {
+        margin-right: 8px;
+        font-size: 10px;
+    }
+}
 /* Mobile iphone-5s*/ 
 @media screen and (max-width:320px) {
     /* Header */
