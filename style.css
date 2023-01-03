@@ -107,6 +107,7 @@ a {
 #let-go-btn:hover {
     cursor: pointer;
     background-color: rgb(241, 229, 90);
+    transition: 0.3s;
 }
 .mobile-menu #login-block .item-btn #sign-btn:hover {
     background-color: unset;
@@ -138,6 +139,7 @@ a {
 #login-block .item-btn:hover {
     cursor: pointer;
     color: #ddd;
+    transition: 0.3s;
 }
 .navbar #navbar-logo,
 .navbar .navbar-list {
@@ -148,6 +150,7 @@ a {
 #login-block .item-btn:hover {
     cursor: pointer;
     color: #ddd;
+    transition: 0.3s;
 }
 .navbar-list {
     margin-left: 69px;
@@ -211,6 +214,7 @@ a {
 #center-btn .item-btn-2:hover {
     cursor: pointer;
     background-color: rgb(235, 234, 234);
+    transition: 0.3s;
 }
 .header-center #title {
     font-weight: 800;
@@ -402,7 +406,7 @@ a {
 }
 #footer {
     display: grid;
-    grid-template-columns: 2.639% 13.2% 4.93% 1fr 30%;
+    grid-template-columns: 2.639% 13.2% 4.93% 1fr 10%;
     grid-template-rows: 50px 1fr 50px;
     align-items: center;
 }
