@@ -37,6 +37,19 @@
     .img-item {
         width: calc(100%/5) !important;
     }
+
+    .slider button {
+        width: 48px !important;
+        height: 48px !important;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div {
+        left: 14px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div {
+        left: 9px !important;
+    }
     #carousel1 + * {
         opacity: 0.85;
         left: 24px ;
