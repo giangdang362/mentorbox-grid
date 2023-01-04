@@ -803,22 +803,6 @@
     .img-item {
         width: 100% !important;
     }
-    /* .navbar #navbar-logo, .navbar .navbar-list {
-        line-height: 30px;
-    }
-    .logo-and-list-item {
-        grid-column: 2/9;
-    }
-    .navbar-list {
-        margin-left: 16px;
-        font-size: 14px;
-    }
-    .navbar #navbar-logo {
-        font-size: 20px;
-    }
-    .navbar-list .navbar-item {
-        margin-right: 10px;
-    } */
     /*  */
     .header-center {
         grid-template-columns: 10.35% 1fr 26%;
@@ -864,16 +848,20 @@
     .img-item {
         width: calc(100%/2) !important;
     }
+    .slider button {
+        width: 48px !important;
+        height: 48px !important;
+    }
     #carousel1 + * div,
     #carousel2 + * div {
-        left: 10px !important;
+        left: 12px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div {
-        left: 16px !important;
+        left: 22px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-left:12px solid orangered !important;
