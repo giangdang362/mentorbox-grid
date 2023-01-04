@@ -262,7 +262,8 @@ a {
 /* Css style next/prev button */
 
 #carousel1 + * div,
-#carousel2 + * div {
+#carousel2 + * div,
+#carousel3 + * div {
     border-style: none !important;
     width: 0 !important;
     height: 0 !important;
@@ -271,8 +272,12 @@ a {
     border-right:12px solid orangered !important;
     transform: rotate(0) !important;
 }
+.slider-finally {
+    position: relative;
+}
 .slider-1 button + button div,
-.slider-2 button + button div {
+.slider-2 button + button div,
+.slider-finally button + button div {
     border-style: none !important;
     width: 0 !important;
     height: 0 !important;
@@ -281,12 +286,26 @@ a {
     border-left:12px solid orangered !important;
     transform: rotate(0) !important;
 }
+#carousel3 + * {
+    opacity: 0.85;
+    left: 24px;
+    position: absolute;
+    top: 30%;
+}
+.slider-finally button + button {
+    opacity: 0.85;
+    right: 17px;
+    position: absolute;
+    top: 30%;
+}
 #carousel1 + * div,
-#carousel2 + * div {
+#carousel2 + * div,
+#carousel3 + * div {
     left: 6px !important;
 }
 .slider-1 button + button div,
-.slider-2 button + button div {
+.slider-2 button + button div,
+.slider-finally button + button div {
     left: 10px !important;
 }
 /* Top-title */
@@ -405,18 +424,6 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-.next-icon-last {
-    grid-row: 4/5;
-    grid-column: 12/13;
-    position: absolute;
-    right: 32px;
-}
-.back-icon-last {
-    grid-row: 4/5;
-    grid-column: 1/2;
-    position: absolute;
-    left: 30px;
 }
 .finally-content {
     grid-template-columns: repeat(12,1fr);

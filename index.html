@@ -178,10 +178,8 @@
                 </div>
             </div>
             <div class="slider-finally">
-                <div class="slider-finally-bg" style="background-image: url(./images/TestimonialsSection.avif);">
-                    <div id="blur-bg">
-                    </div>
-                    <div class="infor-finally">
+                <div id="carousel3" class="slider-finally-bg" style="background-image: url(./images/TestimonialsSection.avif);">
+                    <div class="infor-finally item">
                         <div id="title">
                             Robert Thompson, Marketer
                         </div>
@@ -207,11 +205,32 @@
                                 <img src="./images/star-icon.avif" alt="">
                             </div>
                         </div>
-                        <div class="next-icon-last">
-                            <img src="./images/button/next-button.avif" alt="">
+                    </div>
+                    <div class="infor-finally item">
+                        <div id="title">
+                            Cristiano Ronaldo
                         </div>
-                        <div class="back-icon-last">
-                            <img src="./images/button/back-button.avif" alt="">
+                        <div id="content">
+                            “Cristiano Ronaldo dos Santos Aveiro was born on 5 February 1985 in the São Pedro parish of Funchal, 
+                            the capital of the Portuguese island of Madeira, 
+                            and grew up in the nearby parish of Santo António.”
+                        </div>
+                        <div id="star-block">
+                            <div class="star-item">
+                                <img src="./images/star-icon.avif" alt="">
+                            </div>
+                            <div class="star-item">
+                                <img src="./images/star-icon.avif" alt="">
+                            </div>
+                            <div class="star-item">
+                                <img src="./images/star-icon.avif" alt="">
+                            </div>
+                            <div class="star-item">
+                                <img src="./images/star-icon.avif" alt="">
+                            </div>
+                            <div class="star-item">
+                                <img src="./images/star-icon.avif" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,10 +263,13 @@
             mouseDrag: true,
             showScrollbar: false
         });
-    </script>
-    <script nonce="r4nd0m">
         ScrollCarousel({
             carouselSelector: "#carousel2",
+            mouseDrag: true,
+            showScrollbar: false
+        });
+        ScrollCarousel({
+            carouselSelector: "#carousel3",
             mouseDrag: true,
             showScrollbar: false
         });

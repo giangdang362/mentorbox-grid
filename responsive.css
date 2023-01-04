@@ -6,6 +6,9 @@
     #header-block {
         height: 812px;
     }
+    .slider-finally-bg .infor-finally {
+        height: 500px;
+    }
     .logo-and-list-item {
         grid-column: 2/7;
     }
@@ -38,19 +41,22 @@
         width: calc(100%/5) !important;
 
     }
-    .slider button {
+    .slider button,
+    .slider-finally button {
         width: 48px !important;
         height: 48px !important;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 11px !important;
         border-top: 12px solid transparent !important;
         border-bottom: 12px solid transparent !important;
         border-right:14px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 20px !important;
         border-top: 12px solid transparent !important;
         border-bottom: 12px solid transparent !important;
@@ -80,6 +86,7 @@
         position: absolute;
         top: 63.5%;
     }
+
     .main-title {
         font-size: 40px;
     }
@@ -96,15 +103,12 @@
         font-size: 30px;
     }
     .finally-content #let-go-btn {
-        width: 270px;
+        width: 280px;
     }
     .finally-content #content {
-        font-size: 38px;
+        font-size: 48px;
     }
-    .next-icon {
-        top: 110px !important;
-        right: 106px !important;
-    }
+
 }
 /* PC - 1440px */
 
@@ -116,11 +120,13 @@
         grid-column: 2/7;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 10px !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 16px !important;
     }
     .img-item {
@@ -199,11 +205,13 @@
     }
     /*  */
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 6px !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 10px !important;
     }
     #carousel1 + * {
@@ -300,11 +308,13 @@
         width: calc(100%/4 - 16px) !important;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 6px !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 10px !important;
     }
     #carousel1 + * {
@@ -459,9 +469,6 @@
     }
     .back-icon-last {
         grid-column: 1/3;
-    }
-    .next-icon-last {
-        grid-column: 11/13;
     }
     .infor-finally #title {
         font-size: 30px;
@@ -678,14 +685,16 @@
         width: calc(100%/3 - 12px) !important;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 10px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 16px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
@@ -733,9 +742,6 @@
     /* .list-img {
         justify-content: space-between;
     } */
-    .next-icon-last {
-        grid-column: 11/13;
-    }
     .infor-finally #title {
         font-size: 30px;
     }
@@ -853,15 +859,17 @@
         height: 48px !important;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 12px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
-        left: 22px !important;
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 17px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-left:12px solid orangered !important;
@@ -946,9 +954,6 @@
     .back-icon-last {
         grid-column: 1/3;
     }
-    .next-icon-last {
-        grid-column: 11/13;
-    }
     .infor-finally #title {
         font-size: 30px;
     }
@@ -1003,9 +1008,6 @@
     }
     .back-icon-last {
         left: 12px;
-    }
-    .next-icon-last {
-        right: 26px;
     }
     .infor-finally #content {
         font-size: 20px;
@@ -1079,15 +1081,22 @@
     .img-item {
         width: calc(100%/2 - 18px) !important;
     }
+    .slider button,
+    .slider-finally button {
+        width: 30px !important;
+        height: 30px !important;
+    }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 10px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 16px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
@@ -1126,11 +1135,13 @@
         height: 30px !important;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 6px !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 11px !important;
     }
 }
@@ -1230,15 +1241,22 @@
     .img-item {
         width: calc(100%) !important;
     }
+    .slider button,
+    .slider-finally button {
+        width: 30px !important;
+        height: 30px !important;
+    }
     #carousel1 + * div,
-    #carousel2 + * div {
+    #carousel2 + * div,
+    #carousel3 + * div {
         left: 10px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
         border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
+    .slider-2 button + button div,
+    .slider-finally button + button div {
         left: 16px !important;
         border-top: 10px solid transparent !important;
         border-bottom: 10px solid transparent !important;
@@ -1282,9 +1300,6 @@
     }
     .back-icon-last {
         left: 0;
-    }
-    .next-icon-last {
-        right: 14px;
     }
     .infor-finally #content {
         font-size: 16px;
@@ -1344,6 +1359,11 @@
     }
     .img-item {
         width: calc(100%) !important;
+    }
+    .slider button,
+    .slider-finally button {
+        width: 30px !important;
+        height: 30px !important;
     }
     
     #carousel1 + * {
@@ -1417,6 +1437,11 @@
     #center-btn .item-btn-1, #center-btn .item-btn-2 {
         font-size: 12px;
     }
+    .slider button,
+    .slider-finally button {
+        width: 30px !important;
+        height: 30px !important;
+    }
     /* .mobile-menu #login-block {
         padding: 5px 6px;
     } */
@@ -1475,15 +1500,17 @@
         max-width: 90%;
     }
     #carousel1 + * div,
-    #carousel2 + * div {
-        left: 2px !important;
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 8px !important;
         border-top: 8px solid transparent !important;
         border-bottom: 8px solid transparent !important;
         border-right:10px solid orangered !important;
     }
     .slider-1 button + button div,
-    .slider-2 button + button div {
-        left: 6px !important;
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 12px !important;
         border-top: 8px solid transparent !important;
         border-bottom: 8px solid transparent !important;
         border-left: 10px solid orangered !important;
@@ -1505,6 +1532,12 @@
         width: 30px !important;
         height: 30px !important;
     }
+    #carousel3 + * {
+        opacity: 0.85;
+        left: 8px;
+        position: absolute;
+        top: 30%;
+    }
     .slider-1 button + button {
         opacity: 0.85;
         right: 1px;
@@ -1520,6 +1553,12 @@
         top: 64.8%;
         width: 30px !important;
         height: 30px !important;
+    }
+    .slider-finally button + button {
+        opacity: 0.85;
+        right: 8px;
+        position: absolute;
+        top: 30%;
     }
     .infor-finally #title {
         font-size: 20px;
@@ -1549,7 +1588,7 @@
         font-weight: 700;
     }
     #footer {
-        grid-template-columns: 2.639% 25% 3% 1fr;
+        grid-template-columns: 2.639% 25% 7% 1fr;
         grid-template-rows: 10px 1fr 10px;
     }
     #footer .navbar-list .navbar-item {
