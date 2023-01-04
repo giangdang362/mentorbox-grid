@@ -794,7 +794,7 @@
     #header-block {
         height: 420px;
     }
-    .bg-color {
+    #header {
         background: unset;
     }
     #moblieMenu {
@@ -1040,7 +1040,7 @@
     #header, .bg-color, #header-block {
         height: 400px;
     }
-    .bg-color {
+    #header {
         background: unset;
     }
     #moblieMenu {
@@ -1153,7 +1153,7 @@
     #header-block {
         height: 360px;
     }
-    .bg-color {
+    #header {
         background: unset;
     }
     .header-image {
@@ -1328,7 +1328,7 @@
     .header-center {
         grid-template-columns: 5% 67.5% 27.5%;
     }
-    .bg-color {
+    #header {
         background: unset;
     }
     .header-center #title {
@@ -1412,7 +1412,7 @@
     #header-block {
         height: 300px;
     }
-    .bg-color {
+    #header {
         background: unset;
     }
     .header-image {
