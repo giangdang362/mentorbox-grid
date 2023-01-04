@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body {
+    font-family: 'Poppins';
+}
 #main {
     position: relative;
 }

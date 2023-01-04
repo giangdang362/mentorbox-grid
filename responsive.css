@@ -794,6 +794,9 @@
     #header-block {
         height: 420px;
     }
+    .bg-color {
+        background: unset;
+    }
     #moblieMenu {
         height: 388px;
     }
@@ -1037,6 +1040,9 @@
     #header, .bg-color, #header-block {
         height: 400px;
     }
+    .bg-color {
+        background: unset;
+    }
     #moblieMenu {
         height: 372px;
     }
@@ -1146,6 +1152,9 @@
     .bg-color,
     #header-block {
         height: 360px;
+    }
+    .bg-color {
+        background: unset;
     }
     .header-image {
         top: 49.5%;
@@ -1319,6 +1328,9 @@
     .header-center {
         grid-template-columns: 5% 67.5% 27.5%;
     }
+    .bg-color {
+        background: unset;
+    }
     .header-center #title {
         font-size: 28px;
         line-height: 30px;
@@ -1399,6 +1411,9 @@
     .bg-color,
     #header-block {
         height: 300px;
+    }
+    .bg-color {
+        background: unset;
     }
     .header-image {
         top: 36.5%;
