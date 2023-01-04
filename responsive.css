@@ -36,19 +36,25 @@
     /*  */
     .img-item {
         width: calc(100%/5) !important;
-    }
 
+    }
     .slider button {
         width: 48px !important;
         height: 48px !important;
     }
     #carousel1 + * div,
     #carousel2 + * div {
-        left: 8px !important;
+        left: 11px !important;
+        border-top: 12px solid transparent !important;
+        border-bottom: 12px solid transparent !important;
+        border-right:14px solid orangered !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div {
-        left: 14px !important;
+        left: 20px !important;
+        border-top: 12px solid transparent !important;
+        border-bottom: 12px solid transparent !important;
+        border-left:14px solid orangered !important;
     }
     #carousel1 + * {
         opacity: 0.85;
@@ -111,11 +117,14 @@
     }
     #carousel1 + * div,
     #carousel2 + * div {
-        left: 6px !important;
+        left: 10px !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div {
-        left: 10px !important;
+        left: 16px !important;
+    }
+    .img-item {
+        width: calc(100%/4 - 9px) !important;
     }
     #carousel1 + * {
         opacity: 0.85;
@@ -131,13 +140,13 @@
     }
     .slider-1 button + button {
         opacity: 0.85;
-        right: 4px;
+        right: 28px;
         position: absolute;
         top: 47%;
     }
     .slider-2 button + button {
         opacity: 0.85;
-        right: 4px;
+        right: 28px;
         position: absolute;
         top: 63.5%;
     }
@@ -664,8 +673,23 @@
         top: 43.6%;
     } */
     /* prev button of carousel1*/
+    /* fix width img ??? */
     .img-item {
-        width: calc(100%/3) !important;
+        width: calc(100%/3 - 12px) !important;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div {
+        left: 10px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-right:12px solid orangered !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div {
+        left: 16px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-left:12px solid orangered !important;
     }
     #carousel1 + * {
         opacity: 0.85;
@@ -836,6 +860,20 @@
     }
     .img-item {
         width: calc(100%/2) !important;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div {
+        left: 10px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-right:12px solid orangered !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div {
+        left: 16px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-left:12px solid orangered !important;
     }
     #carousel1 + * {
         opacity: 0.85;
@@ -1047,6 +1085,20 @@
     .img-item {
         width: calc(100%/2 - 18px) !important;
     }
+    #carousel1 + * div,
+    #carousel2 + * div {
+        left: 10px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-right:12px solid orangered !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div {
+        left: 16px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-left:12px solid orangered !important;
+    }
     #carousel1 + * {
         opacity: 0.85;
         left: 1px ;
@@ -1085,7 +1137,7 @@
     }
     .slider-1 button + button div,
     .slider-2 button + button div {
-        left: 1px !important;
+        left: 11px !important;
     }
 }
 /* Mobile - 425px */
@@ -1180,6 +1232,20 @@
     }
     .img-item {
         width: calc(100%) !important;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div {
+        left: 10px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-right:12px solid orangered !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div {
+        left: 16px !important;
+        border-top: 10px solid transparent !important;
+        border-bottom: 10px solid transparent !important;
+        border-left:12px solid orangered !important;
     }
     #carousel1 + * {
         opacity: 0.85;
@@ -1279,6 +1345,7 @@
     .img-item {
         width: calc(100%) !important;
     }
+    
     #carousel1 + * {
         opacity: 0.85;
         left: 20px;
