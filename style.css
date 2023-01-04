@@ -100,6 +100,12 @@ a {
     color: #000;
     font-weight: 700;
 }
+.navbar-list hr {
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    opacity: 0.5;
+    margin-right: 16px;
+}
 .mobile-menu #navbar-logo {
     padding: 0 12px;
 }
@@ -244,6 +250,36 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 33px;
+}
+/* Css style next/prev button */
+
+#carousel1 + * div,
+#carousel2 + * div {
+    border-style: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 10px solid transparent !important;
+    border-bottom: 10px solid transparent !important;
+    border-right:12px solid orangered !important;
+    transform: rotate(0) !important;
+}
+.slider-1 button + button div,
+.slider-2 button + button div {
+    border-style: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 10px solid transparent !important;
+    border-bottom: 10px solid transparent !important;
+    border-left:12px solid orangered !important;
+    transform: rotate(0) !important;
+}
+#carousel1 + * div,
+#carousel2 + * div {
+    left: 6px !important;
+}
+.slider-1 button + button div,
+.slider-2 button + button div {
+    left: 10px !important;
 }
 /* Top-title */
 
