@@ -39,7 +39,7 @@ a {
     z-index: 2;
     height: auto;
     background: linear-gradient(146.88deg,
-    rgba(243, 107, 80, 0.866) 0.5%, rgba(223, 66, 136, 0.767) 42%);
+    rgba(243, 107, 80, 0.95) 0.5%, rgba(206, 74, 134, 0.95) 42%);
 }
 
 .bg-color {
