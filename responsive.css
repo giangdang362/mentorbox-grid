@@ -39,7 +39,6 @@
     /*  */
     .img-item {
         width: calc(100%/5) !important;
-
     }
     .slider button,
     .slider-finally button {
@@ -49,7 +48,7 @@
     #carousel1 + * div,
     #carousel2 + * div,
     #carousel3 + * div {
-        left: 11px !important;
+        left: 12px !important;
         border-top: 12px solid transparent !important;
         border-bottom: 12px solid transparent !important;
         border-right:14px solid orangered !important;
@@ -75,15 +74,11 @@
         top: 63.5%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
         right: 17px;
-        position: absolute;
         top: 47.5%;
     }
     .slider-2 button + button {
-        opacity: 0.85;
         right: 17px;
-        position: absolute;
         top: 63.5%;
     }
 
@@ -133,31 +128,16 @@
         width: calc(100%/4 - 9px) !important;
     }
     #carousel1 + * {
-        opacity: 0.85;
-        left: 14px;
-        position: absolute;
-        top: 47%;
+        top: 64%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 14px;
-        position: absolute;
-        top: 63.5%;
+        top: 64%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
-        right: 28px;
-        position: absolute;
-        top: 47%;
+        top: 64%;
     }
     .slider-2 button + button {
-        opacity: 0.85;
-        right: 28px;
-        position: absolute;
-        top: 63.5%;
-    }
-    .next-icon {
-        right: 0px !important;
+        top: 64%;
     }
     
 }
@@ -203,43 +183,33 @@
         top: 26%;
         left: 71%;
     }
-    /*  */
+    #carousel1 + * {
+        top: 64%;
+    }
+    #carousel2 + * {
+        top: 64%;
+    }
+    #carousel3 + * {
+        top: 30%;
+    }
+    .slider-1 button + button {
+        top: 64%;
+    }
+    .slider-2 button + button {
+        top: 64%;
+    }
+    .slider-finally button + button {
+        top: 30%;
+    }
     #carousel1 + * div,
     #carousel2 + * div,
     #carousel3 + * div {
-        left: 6px !important;
+        left: 10px !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div,
     .slider-finally button + button div {
-        left: 10px !important;
-    }
-    #carousel1 + * {
-        opacity: 0.85;
-        left: 11px ;
-        position: absolute;
-        top: 45%;
-    }
-    #carousel2 + * {
-        opacity: 0.85;
-        left: 11px ;
-        position: absolute;
-        top: 62.6%;
-    }
-    .slider-1 button + button {
-        opacity: 0.85;
-        right: 1px;
-        position: absolute;
-        top: 45%;
-    }
-    .slider-2 button + button {
-        opacity: 0.85;
-        right: 1px;
-        position: absolute;
-        top: 62.6%;
-    }
-    .next-icon {
-        right: -8px !important;
+        left: 16px !important;
     }
     .finally-content {
         height: 240px;
@@ -310,37 +280,20 @@
     #carousel1 + * div,
     #carousel2 + * div,
     #carousel3 + * div {
-        left: 6px !important;
+        left: 10px !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div,
     .slider-finally button + button div {
-        left: 10px !important;
-    }
-    #carousel1 + * {
-        opacity: 0.85;
-        left: 10px ;
-        position: absolute;
-        top: 43.8%;
-    }
-    #carousel2 + * {
-        opacity: 0.85;
-        left: 10px ;
-        position: absolute;
-        top: 62%;
+        left: 16px !important;
     }
     .slider-1 button + button {
-        opacity: 0.85;
         right: 12px;
-        position: absolute;
-        top: 43.8%;
     }
     .slider-2 button + button {
-        opacity: 0.85;
         right: 12px;
-        position: absolute;
-        top: 62%;
     }
+    
     .main-title {
         font-size: 30px;
     }
@@ -382,6 +335,34 @@
 @media screen and (min-width:1025px) and (max-width:1039px) {
     #top-title {
         grid-template-columns: 11% 1fr 11%;
+    }
+    #carousel1 + * {
+        top: 64%;
+    }
+    #carousel2 + * {
+        top: 64%;
+    }
+    #carousel3 + * {
+        top: 30%;
+    }
+    .slider-1 button + button {
+        top: 64%;
+    }
+    .slider-2 button + button {
+        top: 64%;
+    }
+    .slider-finally button + button {
+        top: 30%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 10px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 16px !important;
     }
 }
 /* PC-Laptop - 1024px */
@@ -503,30 +484,36 @@
     .img-item {
         width: calc(100%/3) !important;
     }
+    /*  */
     #carousel1 + * {
-        opacity: 0.85;
-        left: 5px ;
-        position: absolute;
-        top: 43.6%;
+        top: 64%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 5px ;
-        position: absolute;
-        top: 61.5%;
+        top: 64%;
+    }
+    #carousel3 + * {
+        top: 30%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
-        right: -4px;
-        position: absolute;
-        top: 43.6%;
+        top: 64%;
     }
     .slider-2 button + button {
-        opacity: 0.85;
-        right: -4px;
-        position: absolute;
-        top: 61.5%;
+        top: 64%;
     }
+    .slider-finally button + button {
+        top: 30%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 10px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 16px !important;
+    }
+    /*  */
     #footer .navbar-list {
         grid-column: 4/10;
         font-size: 16px;
@@ -587,7 +574,7 @@
         display: block;
     }
     .header-image {
-        top: 23%;
+        bottom: 2%;
         left: 76%;
         right: 2%;
     }
@@ -680,53 +667,39 @@
         top: 43.6%;
     } */
     /* prev button of carousel1*/
-    /* fix width img ??? */
     .img-item {
         width: calc(100%/3 - 12px) !important;
+    }
+    /*  */
+    #carousel1 + * {
+        top: 64%;
+    }
+    #carousel2 + * {
+        top: 64%;
+    }
+    #carousel3 + * {
+        top: 25%;
+    }
+    .slider-1 button + button {
+        top: 64%;
+    }
+    .slider-2 button + button {
+        top: 64%;
+    }
+    .slider-finally button + button {
+        top: 25%;
     }
     #carousel1 + * div,
     #carousel2 + * div,
     #carousel3 + * div {
         left: 10px !important;
-        border-top: 10px solid transparent !important;
-        border-bottom: 10px solid transparent !important;
-        border-right:12px solid orangered !important;
     }
     .slider-1 button + button div,
     .slider-2 button + button div,
     .slider-finally button + button div {
         left: 16px !important;
-        border-top: 10px solid transparent !important;
-        border-bottom: 10px solid transparent !important;
-        border-left:12px solid orangered !important;
     }
-    #carousel1 + * {
-        opacity: 0.85;
-        left: 9px ;
-        position: absolute;
-        top: 43.6%;
-    }
-    #carousel2 + * {
-        opacity: 0.85;
-        left: 9px ;
-        position: absolute;
-        top: 62%;
-    }
-    .slider-1 button + button {
-        opacity: 0.85;
-        right: 1px;
-        position: absolute;
-        top: 43.6%;
-    }
-    .slider-2 button + button {
-        opacity: 0.85;
-        right: 1px;
-        position: absolute;
-        top: 62%;
-    }
-    .next-icon {
-        right: -27px !important;
-    }
+    /*  */
     .main-title {
         font-size: 28px;
     }
@@ -739,9 +712,6 @@
     .back-icon-last {
         grid-column: 1/3;
     }
-    /* .list-img {
-        justify-content: space-between;
-    } */
     .infor-finally #title {
         font-size: 30px;
     }
@@ -773,6 +743,9 @@
         grid-template-rows: 29.28% 1fr 31.18%;
         align-items: center;
     }
+    .finally-content {
+        margin-top: 50px;
+    }
     .finally-content #content {
         font-size: 26px;
     }
@@ -792,6 +765,39 @@
     #top-title {
         grid-template-columns: 6% 1fr 6%;
     }
+    /*  */
+    #carousel1 + * {
+        top: 64%;
+    }
+    #carousel2 + * {
+        top: 64%;
+    }
+    #carousel3 + * {
+        top: 25%;
+    }
+    .slider-1 button + button {
+        top: 64%;
+    }
+    .slider-2 button + button {
+        top: 64%;
+    }
+    .slider-finally button + button {
+        top: 25%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 10px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 16px !important;
+    }
+    .finally-content {
+        margin-top: 40px;
+    }
+    /*  */
 }
 /* Mobile - 768px */
 @media screen and (max-width:768px) {
@@ -820,7 +826,7 @@
         display: block;
     }
     .header-image {
-        top: 23%;
+        bottom: 2%;
         left: 76%;
         right: 2%;
     }
@@ -837,7 +843,6 @@
         display: flex;
         justify-content: space-between;
     }
-    
     .menu-icon i {
         padding: 8px;
         font-size: 38px;    
@@ -854,10 +859,10 @@
     .img-item {
         width: calc(100%/2) !important;
     }
-    .slider button {
+    /* .slider button {
         width: 48px !important;
         height: 48px !important;
-    }
+    } */
     #carousel1 + * div,
     #carousel2 + * div,
     #carousel3 + * div {
@@ -875,28 +880,34 @@
         border-left:12px solid orangered !important;
     }
     #carousel1 + * {
-        opacity: 0.85;
-        left: 14px ;
-        position: absolute;
-        top: 41.8%;
+        top: 53%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 14px ;
-        position: absolute;
-        top: 61%;
+        top: 53%;
+    }
+    #carousel3 + * {
+        top: 25%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
-        right: 31px;
-        position: absolute;
-        top: 41.8%;
+        top: 53%;
+        right: 28px;
     }
     .slider-2 button + button {
-        opacity: 0.85;
-        right: 31px;
-        position: absolute;
-        top: 61%;
+        top: 53%;
+        right: 28px;
+    }
+    .slider-finally button + button {
+        top: 25%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 10px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 16px !important;
     }
     .mobile-menu .navbar-list {
         margin-left: 12px !important;
@@ -939,7 +950,6 @@
         grid-template-columns: 11% 1fr 11%;
         grid-template-rows: 15% 20% 1fr;
     }
-
     /*  */
     
     .main-title {
@@ -947,6 +957,9 @@
     }
     .main-content {
         font-size: 18px;
+    }
+    .finally-content {
+        margin-top: 30px;
     }
     .infor-finally {
         height: 400px;
@@ -1028,7 +1041,7 @@
 /* 426px - 620px */
 @media screen and (min-width:426px) and (max-width:620px) {
     #header, .bg-color, #header-block {
-        height: 400px;
+        height: 380px;
     }
     #header {
         background: unset;
@@ -1103,36 +1116,26 @@
         border-left:12px solid orangered !important;
     }
     #carousel1 + * {
-        opacity: 0.85;
-        left: 1px ;
-        position: absolute;
-        top: 41.5%;
-        width: 30px !important;
-        height: 30px !important;
+        left: 1px;
+        top: 53%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 1px ;
-        position: absolute;
-        top: 59%;
-        width: 30px !important;
-        height: 30px !important;
+        left: 1px;
+        top: 53%;
+    }
+    #carousel3 + * {
+        top: 25%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
-        right: 0px;
-        position: absolute;
-        top: 41.5%;
-        width: 30px !important;
-        height: 30px !important;
+        top: 53%;
+        right: 6px;
     }
     .slider-2 button + button {
-        opacity: 0.85;
-        right: 0px;
-        position: absolute;
-        top: 59%;
-        width: 30px !important;
-        height: 30px !important;
+        top: 53%;
+        right: 6px;
+    }
+    .slider-finally button + button {
+        top: 25%;
     }
     #carousel1 + * div,
     #carousel2 + * div,
@@ -1142,8 +1145,30 @@
     .slider-1 button + button div,
     .slider-2 button + button div,
     .slider-finally button + button div {
-        left: 11px !important;
+        left: 12px !important;
     }
+    .finally-content {
+        display: block;
+        padding: 12px;
+        text-align: center;
+    }
+    .finally-content #content {
+        margin-bottom: 10px;
+        font-style: 22px;
+    }
+    #footer {
+        grid-template-columns: 2.639% 25% 3% 1fr;
+        grid-template-rows: 10px 1fr 10px;
+    }
+    #footer #navbar-logo {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #footer .navbar-list .navbar-item {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .finally-content {}
 }
 /* Mobile - 425px */
 @media screen and (max-width:425px) {
@@ -1156,7 +1181,7 @@
         background: unset;
     }
     .header-image {
-        top: 49.5%;
+        bottom: 2%;
         left: 74%;
         right: 0.3%;
     }
@@ -1263,28 +1288,36 @@
         border-left:12px solid orangered !important;
     }
     #carousel1 + * {
-        opacity: 0.85;
-        left: 48px;
-        position: absolute;
-        top: 42%;
+        left: 55px;
+        top: 53%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 48px ;
-        position: absolute;
-        top: 61.3%;
+        left: 55px;
+        top: 53%;
+    }
+    #carousel3 + * {
+        top: 25%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
-        right: 24px;
-        position: absolute;
-        top: 42%;
+        top: 53%;
+        right: 32px;
     }
     .slider-2 button + button {
-        opacity: 0.85;
-        right: 24px;
-        position: absolute;
-        top: 61.3%;
+        top: 53%;
+        right: 32px;
+    }
+    .slider-finally button + button {
+        top: 25%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 6px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 12px !important;
     }
     .slider-finally-bg .infor-finally {
         height: 310px;
@@ -1324,6 +1357,9 @@
     #footer .navbar-list .navbar-item {
         margin-right: 10px;
         font-size: 10px;
+    }
+    .finally-content {
+        margin-top: 20px;
     }
 }
 /* 321px - 345px */
@@ -1365,30 +1401,37 @@
         width: 30px !important;
         height: 30px !important;
     }
-    
     #carousel1 + * {
-        opacity: 0.85;
-        left: 20px;
-        position: absolute;
-        top: 43%;
+        left: 15px;
+        top: 53%;
     }
     #carousel2 + * {
-        opacity: 0.85;
-        left: 20px ;
-        position: absolute;
-        top: 63%;
+        left: 15px;
+        top: 53%;
+    }
+    #carousel3 + * {
+        top: 33%;
     }
     .slider-1 button + button {
-        opacity: 0.85;
+        top: 53%;
         right: 1px;
-        position: absolute;
-        top: 43%;
     }
     .slider-2 button + button {
-        opacity: 0.85;
+        top: 53%;
         right: 1px;
-        position: absolute;
-        top: 63%;
+    }
+    .slider-finally button + button {
+        top: 33%;
+    }
+    #carousel1 + * div,
+    #carousel2 + * div,
+    #carousel3 + * div {
+        left: 6px !important;
+    }
+    .slider-1 button + button div,
+    .slider-2 button + button div,
+    .slider-finally button + button div {
+        left: 12px !important;
     }
     .finally-content #content {
         font-size: 19px;
@@ -1469,7 +1512,7 @@
         line-height: 36px;
     }
     #top-title {
-        height: 270px;
+        height: 200px;
         grid-template-columns: 3% 1fr 3%;
         grid-template-rows: 7% 19% 1fr;
     }
@@ -1519,7 +1562,7 @@
         opacity: 0.85;
         left: 12px;
         position: absolute;
-        top: 42.8%;
+        top: 55.8%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1528,7 +1571,7 @@
         opacity: 0.85;
         left: 12px;
         position: absolute;
-        top: 64.8%;
+        top: 54%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1542,7 +1585,7 @@
         opacity: 0.85;
         right: 1px;
         position: absolute;
-        top: 42.8%;
+        top: 55.8%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1550,7 +1593,7 @@
         opacity: 0.85;
         right: 1px;
         position: absolute;
-        top: 64.8%;
+        top: 54%;
         width: 30px !important;
         height: 30px !important;
     }
@@ -1594,5 +1637,8 @@
     #footer .navbar-list .navbar-item {
         margin-right: 11px;
         font-size: 9px;
+    }
+    .finally-content {
+        margin-top: 20px;
     }
 }

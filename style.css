@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 body {
     font-family: 'Poppins';
 }
@@ -286,11 +286,36 @@ a {
     border-left:12px solid orangered !important;
     transform: rotate(0) !important;
 }
+#carousel1 + * {
+    opacity: 0.85;
+    left: 12px;
+    position: absolute;
+    top: 55.8%;
+}
+
+#carousel2 + * {
+    opacity: 0.85;
+    left: 12px;
+    position: absolute;
+    top: 54%;
+}
 #carousel3 + * {
     opacity: 0.85;
     left: 24px;
     position: absolute;
     top: 30%;
+}
+.slider-1 button + button {
+    opacity: 0.85;
+    right: 1px;
+    position: absolute;
+    top: 55.8%;
+}
+.slider-2 button + button {
+    opacity: 0.85;
+    right: 1px;
+    position: absolute;
+    top: 54%;
 }
 .slider-finally button + button {
     opacity: 0.85;
@@ -327,7 +352,10 @@ a {
 }
 
 /* main-slider */
-
+.slider,
+.slider-finally {
+    position: relative;
+}
 #main-slider {
     background-color: #F2F2F2;
 }
@@ -356,7 +384,6 @@ a {
     height: auto;
 }
 .list-img {
-    position: relative;
     grid-column: 2/14;
     display: flex;
     justify-content: space-between;
@@ -434,6 +461,7 @@ a {
     grid-row: 2/3;
 }
 .finally-content {
+    margin-top: 60px;
     display: grid;
     height: 263px;
     background: linear-gradient(161.6deg, #FE5030 8.2%, #D72D77 88.92%);
